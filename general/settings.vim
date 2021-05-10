@@ -1,0 +1,32 @@
+set termguicolors
+set encoding=UTF-8
+set autoindent
+set copyindent
+set tabstop=4
+set expandtab
+set showmatch
+set incsearch
+set ignorecase
+set smartcase
+set smarttab
+set title
+set shiftwidth=4
+set hlsearch
+set hidden
+set modelines=0
+set scrolloff=3
+set showtabline=2
+set gdefault
+set nobackup
+set nowritebackup
+set nofoldenable
+set number
+set mouse=a
+set background=dark
+set splitbelow
+set magic
+set wildmenu
+set selection=exclusive
+set clipboard+=unnamedplus
+
+filetype indent on
