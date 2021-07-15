@@ -16,5 +16,14 @@
     "python.linting.flake8Enabled": false,
     "python.formatting.provider": "autopep8",
     "python.analysis.typeCheckingMode": "basic",
-    "git.enableGutters": true
+    "git.enableGutters": true,
+    "yaml.schemaStore.enable": true,
+    "yaml.format.enable": true,
+    "yaml.validate": true,
+    "yaml.schemas": {
+        "https://raw.githubusercontent.com/microsoft/azure-pipelines-vscode/v1.188.1/service-schema.json": [
+            "azure-pipelines.yml",
+            "azure-pipelines.yaml"
+        ]
+    }
 }

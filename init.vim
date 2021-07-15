@@ -5,6 +5,7 @@ function! SourceFiles(dir)
     endfor
 endfunction
 
+let g:ale_disable_lsp = 1
 " Setup plugin manager first
 call SourceFiles('vim-plug')
 " Now confirue everything else
